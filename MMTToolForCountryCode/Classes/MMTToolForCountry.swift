@@ -34,6 +34,18 @@ public class MMTToolForCountrys {
         }
         return string.isEmpty ? nil : string
     }
+    
+    
+    public class func getCountryInfo(countryCode: String) -> MMTToolForCountryIsoInfo? {
+        return MMTToolForCountrys.allCountries.first(where: {
+            let isNameSame = countryCode.lowercased() == $0.name.lowercased()
+            let isNumericSame = countryCode.lowercased() == $0.numeric.lowercased()
+            let isAlpha2Same = countryCode.lowercased() == $0.alpha2.lowercased()
+            let isAlpha3Same = countryCode.lowercased() == $0.alpha3.lowercased()
+            let isCallingSame = countryCode.lowercased() == $0.calling.lowercased()
+            return isNameSame || isNumericSame || isAlpha2Same || isAlpha3Same || isCallingSame
+        })
+    }
 
     // swiftlint:disable line_length
     public static let allCountries: [MMTToolForCountryIsoInfo] = [

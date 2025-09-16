@@ -42,9 +42,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		60B0B0314BF72474BB6E0DEF /* Pods-MMTToolForCountryCode_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMTToolForCountryCode_Tests.release.xcconfig"; path = "Target Support Files/Pods-MMTToolForCountryCode_Tests/Pods-MMTToolForCountryCode_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		68C18394D0F1D6EBC85B33A5 /* Pods_MMTToolForCountryCode_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMTToolForCountryCode_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		82627D53032333874A6E1EF5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B06BE2BD29F458FE5F97D916 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B58030FC32F8C288CC452B33 /* MMTToolForCountryCode.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MMTToolForCountryCode.podspec; path = ../MMTToolForCountryCode.podspec; sourceTree = "<group>"; };
+		82627D53032333874A6E1EF5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B06BE2BD29F458FE5F97D916 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B58030FC32F8C288CC452B33 /* MMTToolForCountryCode.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MMTToolForCountryCode.podspec; path = ../MMTToolForCountryCode.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D285D30C6E815C28DC983E58 /* Pods_MMTToolForCountryCode_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMTToolForCountryCode_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3F16379C5034F329684DB38 /* Pods-MMTToolForCountryCode_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MMTToolForCountryCode_Example.release.xcconfig"; path = "Target Support Files/Pods-MMTToolForCountryCode_Example/Pods-MMTToolForCountryCode_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,6 @@
 				3BA401ED6831E137BF390CAC /* Pods-MMTToolForCountryCode_Tests.debug.xcconfig */,
 				60B0B0314BF72474BB6E0DEF /* Pods-MMTToolForCountryCode_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
